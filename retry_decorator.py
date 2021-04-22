@@ -30,7 +30,7 @@ def retry(
     :param max_backoff: max sleep time between requests
 
     Example Usage:
-    from swarm_tasks.utilities.retry_decorator import retry
+    from retry_decorator import retry
 
     @retry()
     def test(*args, **kwargs):
